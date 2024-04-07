@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Сайт художника</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="nav-menu">
+<a href="#header" class="menu-item logo">
+<img src="art1logo.png" alt="logo" class="logo-img">
+</a>
+<a href="#about" class="menu-item">
+<img src="book.png" alt="about" class="item-img">
+</a>
+<a href="#advantages" class="menu-item">
+<img src="features.png" alt="feature" class="item-img">
+</a>
+<a href="#photography" class="menu-item">
+<img src="inspiration.png" alt="photographer" class="item-img">
+</a>
+<a href="#gallery" class="menu-item">
+<img src="briefcase.png" alt="portfolio" class="item-img">
+</a>
+<a href="#contact" class="menu-item">
+<img src="chat.png" alt="contact" class="item-img">
+</a>
+</div> 
+
+<div class="social">
+<a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" class="social-item">
+<img src="facebook.png" alt="facebook" class="social-item-img">
+</a>
+<a href="https://vk.com/" class="social-item">
+<img src="vk.png" alt="vkontakte" class="social-item-img">
+</a>
+<a href="https://www.tiktok.com/" class="social-item">
+<img src="tik-tok.png" alt="tiktok" class="social-item-img">
+</a>
+<a href="https://www.instagram.com/" class="social-item">
+<img src="instagram.png" alt="instagram" class="social-item-img">
+</a>
+</div> 
+
+<div class="header" id="header">
+<div class="header-left">
+	<div class="color dark-blue"></div>
+<div class="color red"></div>
+<div class="color yellow"></div>
+<div class="color light-blue"></div>
+
+</div>
+<div class="header-right">
+	<h1 class="header-title">Боб <span>Росс</span></h1>
+<div class="header-branches">
+<p class="branch-item"><a href="https://www.amazon.com/Mountain-Retreat-Canvas-Painting-Poster/dp/B071JZ1Q9Y?th=1">картины</a></p>
+<p class="branch-item"><a href="https://www.twoinchbrush.com/all-paintings">арт</p>
+<p class="branch-item"><a href="https://www.youtube.com/@bobross_thejoyofpainting">обучающие видео</a></p>
+</div>
+<script src="script.js"></script>
+</div>
+</div> 
+
+<div class="about" id="about">
+<div class="about-content">
+<div class="about-content-left">
+<h2 class="about-title">Кто я?</h2>
+<p class="about-text">Меня зовут Боб Росс. Американский художник, преподаватель рисования и телеведущий.
+Создатель и ведущий «Радости живописи», обучающей телевизионной программы.
+</p>
+</div>
+<div class="about-content-right">
+<div class="about-rect rect1"></div>
+<div class="about-rect rect2"></div>
+<div class="about-rect rect3"></div>
+</div>
+
+
+</div>
+<div class="about-background">
+<p class="bg-text">Знакомимся</p>
+
+</div>
+</div> 
+
+<div class="advantages" id="advantages">
+<div class="advantages-content">
+<h2 class="advantages-title">Живописные картины</h2>
+<p class="advantages-text">Создаем живопись с нуля, без навыков рисования</p>
+<img src="bgp.png" alt="advantages-img" class="advantages-img">
+</div>
+<div class="advantages-background">
+<p class="bg-text">CoolStoryBob</p>
+</div>
+</div> 
+
+<div class="photography" id="photography">
+<div class="photography-left">
+<!-- Оставляем пустым, тут будет фоновое изображение -->
+
+</div>
+<div class="photography-right">
+<div class="photography-content">
+<h2 class="photography-title">А еще...</h2>
+<p class="photography-text">Возможность получить навыки рисования, следуя моим гайдам.</p>
+</div>
+<div class="photography-bg">
+<p class="bg-text">Top 1 художник</p>
+<div class="bg-img"></div>
+</div>
+
+
+</div>
+</div> 
+<div class="gallery" id="gallery">
+
+<h2 class="gallery-title">Мое портфолио</h2>
+<div class="gallery-content">
+<img src="gallery1.jpg" alt="item1" class="gallery-item item1">
+<img src="gallery2.jpg" alt="item2" class="gallery-item item2">
+<img src="gallery3.jpg" alt="item3" class="gallery-item item3">
+<img src="gallery4.jpg" alt="item4" class="gallery-item item4">
+<img src="gallery5.jpg" alt="item5" class="gallery-item item5">
+<img src="gallery6.jpg" alt="item6" class="gallery-item item6">
+<img src="gallery7.jpg" alt="item7" class="gallery-item item7">
+</div>
+</div> 
+
+<div class="contact" id="contact">
+<div class="left-side"></div>
+<div class="mid-side">
+<h2 class="contact-title">Связаться со мной</h2>
+<form action="#" class=”contact-form”>
+<label for="name" class="form-label">Имя</label>
+<input type="text" id="name" name="name" placeholder="Иван Иванов" class="text-input">
+
+
+<label for="mail" class="form-label">Почта</label>
+<input type="email" id="mail" name="mail" placeholder="example@mail.ru" class="text-input">
+
+
+<label for="isCompany" class="form-label">Вид юр. лица</label>
+<select name="isCompany" id="isCompany" class="select-input">
+<option value="yes">Да, мы компания</option>
+<option value="no">Нет, я физ лицо</option>
+</select>
+
+
+<label for="agreement" class="form-label">Согласие на обработку данных</label>
+<input type="checkbox" name="agreement" id="agreement" class="check-input">
+
+
+<button class="form-btn">Отправить форму</button>
+</form>
+</div>
+
+<div class="right-side"></div>
+</div> 
+
+
+</body>
+</html>
